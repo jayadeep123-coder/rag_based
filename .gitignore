@@ -1,0 +1,38 @@
+# Environment & Secrets (Never commit secrets)
+.env
+.env.*
+!.env.example
+*.env
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/.venv/
+.venv/
+env/
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend Build Artifacts
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+.vercel/
+.render/
+
+# Temporary / Uploaded Test Files
+*.pdf
+*.log
+scratch/
+test_*.png
+
+# OS metadata
+.DS_Store
+Thumbs.db
